@@ -110,7 +110,7 @@
                             @endif
                         @else
                         @if(Auth::user()->role != 'doctor' )
-                            <a class="navbar-brand" href="{{ route('bookAppointment/create') }}">Book Appointment</a>
+                            <a class="navbar-brand" href="http://3.20.168.28/appointment_booking/bookAppointment/create">Book Appointment</a>
                         @endif
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
