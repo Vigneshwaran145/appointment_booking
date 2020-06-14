@@ -22,7 +22,7 @@ Route::get('/home', 'HomeController@index');
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
 Route::post('login', 'Auth\LoginController@login');
 Route::post('logout', 'Auth\LoginController@logout')->name('logout');
-Route::resource('/bookAppointment', 'BookAppointmentController');
+Route::resource('bookAppointment', 'BookAppointmentController');
 Route::get('/fetchdates', 'AjaxController@fetchdates')->name('fetchdates');
 Route::get('/fetchslots', 'AjaxController@fetchslots')->name('fetchslots');
 
