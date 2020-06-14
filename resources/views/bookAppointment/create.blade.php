@@ -6,7 +6,7 @@
                 <div class="card-header">{{__('Book Appointment')}}</div>
 
                 <div class="card-body">
-                    <form method="post" action="/bookAppointment">
+                    <form method="post" action="http://3.20.168.28/appointment_booking/bookAppointment">
                         @csrf
                         <div class="form-group row">
                             <label for="doctor" class="col-md-4 col-form-label text-md-right">{{__('Doctor Name')}}</label>
